@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           body: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage("assets/bg1.jpg"),
+                  image: AssetImage("assets/images/bg1.jpeg"),
                   fit: BoxFit.cover,
               ),
             ),
@@ -42,7 +42,8 @@ class MyApp extends StatelessWidget {
                   const SizedBox(
                     width: 110,
                     height: 84,
-                    child: Placeholder(),
+                    child: Image(image: AssetImage("assets/images/dart-logo-bird.jpeg",
+                    ),),
                   ),
                   const SizedBox(height: 20,),
                   const Text("Введите логин в виде 10 цифр номера телефона",
