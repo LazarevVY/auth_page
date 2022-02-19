@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
@@ -42,7 +41,7 @@ class MyApp extends StatelessWidget {
                   const SizedBox(
                     width: 110,
                     height: 84,
-                    child: Image(image: AssetImage("assets/images/dart-logo-bird.jpeg",
+                    child: Image(image: AssetImage("assets/images/dart-logo-bird.png",
                     ),),
                   ),
                   const SizedBox(height: 20,),
